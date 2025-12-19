@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集 | 视频与摄影创作</title>
+    <meta name="description" content="个人作品集网站，展示视频制作和摄影作品">
+    <meta name="keywords" content="视频制作, 摄影作品, 个人作品集, 创意作品">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-camera-retro"></i>
+                我的作品集
+            </a>
+            <button class="mobile-menu-btn" aria-label="菜单">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="portfolio.html">作品集</a></li>
+                <li><a href="videos.html">视频作品</a></li>
+                <li><a href="photos.html">摄影作品</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="contact.html" class="btn-contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">创意视觉<span class="highlight">创作者</span></h1>
+                <p class="hero-subtitle">专注于视频制作与摄影艺术，用镜头讲述故事</p>
+                <div class="hero-buttons">
+                    <a href="#featured-works" class="btn btn-primary">查看作品</a>
+                    <a href="contact.html" class="btn btn-outline">联系合作</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- 精选作品 -->
+    <section id="featured-works" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">精选作品</h2>
+                <p class="section-subtitle">近期最具代表性的创作</p>
+            </div>
+            
+            <div class="featured-grid">
+                <!-- 视频作品 -->
+                <div class="featured-card featured-video">
+                    <div class="featured-media">
+                        <div class="media-badge">视频</div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="assets/images/video-thumb-1.jpg" alt="纪录片作品" class="featured-img">
+                    </div>
+                    <div class="featured-content">
+                        <h3>城市纪录片系列</h3>
+                        <p>探索现代都市生活的人文纪录片，展现城市背后的故事与情感</p>
+                        <div class="meta">
+                            <span><i class="far fa-clock"></i> 15分钟</span>
+                            <span><i class="far fa-calendar"></i> 2024年3月</span>
+                        </div>
+                        <a href="videos.html" class="btn btn-small">查看详情</a>
+                    </div>
+                </div>
+                
+                <!-- 照片作品 -->
+                <div class="featured-card featured-photo">
+                    <div class="featured-media">
+                        <div class="media-badge">摄影</div>
+                        <img src="assets/images/photo-thumb-1.jpg" alt="自然风光摄影" class="featured-img">
+                    </div>
+                    <div class="featured-content">
+                        <h3>自然风光系列</h3>
+                        <p>捕捉大自然壮丽景色的摄影作品，展现地球之美与生态平衡</p>
+                        <div class="meta">
+                            <span><i class="fas fa-camera"></i> Sony A7III</span>
+                            <span><i class="far fa-calendar"></i> 2024年2月</span>
+                        </div>
+                        <a href="photos.html" class="btn btn-small">查看详情</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="portfolio.html" class="btn btn-secondary">查看全部作品</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业技能 -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">专业技能</h2>
+                <p class="section-subtitle">专业的创作工具与技能</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>视频制作</h3>
+                    <p>从策划、拍摄到后期剪辑的全流程视频制作能力</p>
+                    <ul class="skill-tags">
+                        <li>Premiere Pro</li>
+                        <li>Final Cut Pro</li>
+                        <li>DaVinci Resolve</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>摄影与修图</h3>
+                    <p>商业摄影、人像摄影及专业后期处理</p>
+                    <ul class="skill-tags">
+                        <li>Lightroom</li>
+                        <li>Photoshop</li>
+                        <li>Capture One</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>视觉设计</h3>
+                    <p>平面设计、色彩理论与视觉叙事</p>
+                    <ul class="skill-tags">
+                        <li>After Effects</li>
+                        <li>Illustrator</li>
+                        <li>Cinema 4D</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo footer-logo">
+                        <i class="fas fa-camera-retro"></i>
+                        我的作品集
+                    </a>
+                    <p>用镜头记录世界，用创意讲述故事</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+                        <a href="#" aria-label="Bilibili"><i class="fab fa-bilibili"></i></a>
+                        <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="portfolio.html">作品集</a></li>
+                        <li><a href="videos.html">视频作品</a></li>
+                        <li><a href="photos.html">摄影作品</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>联系信息</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> contact@portfolio.com</li>
+                        <li><i class="fas fa-phone"></i> +86 138-XXXX-XXXX</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 中国 上海</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 我的作品集. 保留所有权利.</p>
+                <p>本网站作品均为原创，未经许可不得转载使用</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 灯箱模态框 -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="关闭">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" aria-label="上一张">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" aria-label="下一张">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
