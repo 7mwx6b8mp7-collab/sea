@@ -1,220 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
-<link href="../css/zhuyemian.css"  rel="stylesheet">
-<script type="text/javascript" src="../js/zhuyemian.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集 - 宣传片制作与摄影创作</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>作品集</h2>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+                <li><a href="#services" class="nav-link">服务</a></li>
+                <li><a href="#portfolio" class="nav-link">作品</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<body> 
-	<header>
-		<div class="name">
-			<h2>
-			    <span>电</span>
-		        <span>影</span>
-			    <span>推</span>
-			    <span>荐</span>
-			    <span>网</span>
-			    <span>站</span>
-		    </h2>
-		</div>
-	    <ul>
-		    <li><a class="a1" href="guangyuzhe.html">《光语者》</a></li>
-		    <li><a class="a2" href="xiaosenlinxiaqiu.html">《小森林 夏秋篇》</a></li>
-		    <li><a class="a3" href="xiaosenlindongchun.html">《小森林冬春篇》</a></li>
-		    <li><a class="a4" href="dunkirk.html">《敦刻尔克》</a></li>
-		    <li><a class="a5" href="siwangshishe.html">《死亡诗社》</a></li>
-		    <li><a class="a6" href="manchesiter.html">《海边的曼彻斯特》</a></li>
-            <li><a class="a7" href="heidi.html">《海蒂和爷爷》</a></li>
-		    <li><a class="a8" href="rango.html">《兰戈》</a></li>
-		</ul>
-	</header>
-	<div class="container1">
-		<div class="card-box">
-	    	<div class="card1">
-			    <a href="dunkirk.html"><img src="../images/dunkirk.jpg" alt="" ></a>
-			</div>
-			<div class="card1">
-			    <a href="xiaosenlinxiaqiu.html"><img src="../images/Zxiaosenlinxiaqiu.jpg" alt="" ></a>
-			</div>
-			<div class="card1">
-			    <a href="xiaosenlindongchun.html"><img src="../images/Zxiaosenlindongchun.jpg" alt="" ></a>
-			</div>
-            <div class="card1">
-			    <a href="rango.html"><img src="../images/Zrango.jpg" alt="" ></a>
-			</div>			
-			<div class="card1">
-			    <a href="siwangshishe.html"><img src="../images/Zsiwangshishe.jpg" alt="" ></a>
-			</div>
-			<div class="card1">
-			    <a href="manchesiter.html"><img src="../images/Zmanchester.jpg" alt="" ></a>
-			</div>
-			<div class="card1">
-			    <a href="heidi.html"><img src="../images/Zheidi.jpg" alt="" ></a>
-			</div>
-            <div class="card1">
-			    <a href="guangyuzhe.html"><img src="../images/Zguangyuzhe.jpg" alt="" ></a>
-			</div>
-			</div>
-		</div>    
-	<div class="container2">
-        <!-- --d是自定义属性,可通过var函数对其调用 -->
-        <div class="card2" style="--d:-1;">
-            <div class="content">
-                <div class="img">
-                    <img src="../images/h1.jpg" alt="">
+    <!-- Hero区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">聚焦文化，思想，真实摄影</h1>
+            <p class="hero-subtitle">专注于宣传片制作与摄影创作</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">了解更多</a>
+                <a href="#contact" class="btn btn-secondary">联系我</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">了解我的故事和创作理念</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>我的愿景</h3>
+                    <p>我致力于创作高质量的宣传片和摄影作品。通过创新的视觉语言和专业的制作技术，我帮助客户实现他们的创意目标。</p>
+                    <p>我专注于宣传片制作和摄影创作，拥有丰富的经验和独特的创作视角，致力于提供高质量的作品。</p>
                 </div>
-                <div class="detail">
-                    <span>老罗Lazzaro</span>
-                    <p>佩服于在那样极易孤独的环境中生长或留下，并持续洋溢热情与坚定意志的人。</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">完成项目</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">满意客户</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">年经验</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card2" style="--d:0;">
-            <div class="content">
-                <div class="img">
-                    <img src="../images/h2.jpg"  alt="">
+    </section>
+
+    <!-- 服务 -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">我的服务</h2>
+                <p class="section-subtitle">为您提供专业的创作服务</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>文旅项目</h3>
+                    <p>专业的企业形象宣传片制作，展现品牌价值与实力</p>
                 </div>
-                <div class="detail">
-                    <span>雾淡乡</span>
-                    <p>电影的气质就像它所拍摄的那群北方科考人员一样，朴实，自然，慢热，礼貌中有一点距离感，新奇中也免不了一点枯燥……</p>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>品牌企业</h3>
+                    <p>创意产品宣传片制作，突出产品特色与优势</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>商业空间</h3>
+                    <p>确保您的网站在所有设备上都能完美显示</p>
                 </div>
             </div>
         </div>
-        <div class="card2" style="--d:1;">
-            <div class="content">
-                <div class="img">
-                    <img src="../images/f2.jpg" alt="">
+    </section>
+
+    <!-- 作品集 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">作品展示</h2>
+                <p class="section-subtitle">查看我的一些优秀作品</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>文旅项目</h4>
+                            <p>文旅项目</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="detail">
-                    <span>胤祥 </span>
-                    <p>诺兰对时间的理解足以牢牢霸住一个当代大师的位置。</p>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>品牌企业</h4>
+                            <p>新品发布宣传片</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>店铺宣传片</h4>
+                            <p>大型活动记录片</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>商业摄影</h4>
+                            <p>产品摄影作品</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>创意宣传片</h4>
+                            <p>概念创意短片</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>人像摄影</h4>
+                            <p>商业人像摄影</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card2" style="--d:2;">
-            <div class="content">
-                <div class="img">
-                    <img src="../images/f1.jpg" alt="">
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我</h2>
+                <p class="section-subtitle">我很乐意听到您的声音</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>地址</h4>
+                            <p>中国，杭州市，余杭区</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>电话</h4>
+                            <p>+86 155 371 52305</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>邮箱</h4>
+                            <p>15537152305@163.com</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="detail">
-                    <span>昏金暗玉  </span>
-                    <p>冬雪化尽樱花开，冬天埋下的种子来夏再收吧，少女再次走进等待一切的黑夜。</p>
-                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="主题" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的消息" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
             </div>
         </div>
-        <div class="card2" style="--d:3;">
-            <div class="content">
-                <div class="img">
-                    <img src="../images/d2.jpg" alt="">
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>作品集</h3>
+                    <p>专注于宣传片制作与摄影创作</p>
                 </div>
-                <div class="detail">
-                    <span>张苑希 </span>
-                    <p>食物、耕作、生活，循环往复，生生不息，最妙的奥义尽在这小森之中了。</p>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于</a></li>
+                        <li><a href="#services">服务</a></li>
+                        <li><a href="#portfolio">作品</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>关注我</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cream Template. 保留所有权利.</p>
+            </div>
         </div>
-    </div>
-    <div class="container3">
-		<div class="row">
-			    <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/heidi1.jpg" width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/heidi.mp4')">
-					</div>					
-				</div>
-		        <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/guangyuzhe1.jpg" width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/guangyuzhe.mp4')">
-					</div>					
-				</div>
-	            <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/dunkirk1.jpg" width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/dunkirk.mp4')">
-					</div>					
-				</div>
-			    <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/rango1.jpg" width="100%" >
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/rango.mp4')">
-					</div>					
-				</div>
-			    <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/machesiter1.jpg" width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/manchester.mp4')">
-					</div>
-				</div>
-			    <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/xiaosenlin1.jpg" width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/xiaosenlindongchun.mp4')">
-					</div>	
-			    </div>
-			    <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/xiaosenlin1.jpg"  width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/xiaosenlinxiaqiu.mp4')">
-					</div>
-			    </div>
-			    <div class="small-img-row">
-					<div class="small-img">
-				        <img src="../images/siwangshishe1.jpg" width="100%">
-						<img src="../images/bofang.jpg" class="play-btn"
-						onclick="playVideo('../video/siwangshishe.mp4')">
-					</div>
-			    </div>
-		</div>
-	</div>
-    <div class="video-player" id="videoPlayer">
-		<video width="100%" controls autoplay id="myVideo">
-		    <source type="video/mp4">
-		</video>
-		<img src="../images/guanbi.jpg" class="close-btn"
-	    onclick="stopVideo()">
-    </div>
-<script>
-    var videoPlayer = document.getElementById("videoPlayer");
-	var myVideo = document.getElementById("myVideo");
-	function stopVideo(){
-		videoPlayer.style.display = "none";	
-	}
-	function playVideo(file){
-		myVideo.src = file;
-		videoPlayer.style.display = "block";
-	}
-</script>
-  <div class="taici1">
-	<ul>
-	  <li class="biaoti1">经典台词</li>
-	  <li>他们知道的太少，而你，则见过很多东西，如果做某件事能让你开心，那么尽管去做。不管别人说什么。<br/>——《海蒂和爷爷》</li>  
-	  <li>《光语者》以冷静、客观的表现形式，展现了丰富的人文情怀。该片勾勒出人们对光的渴望、追逐和依恋。在导演的镜头下，每个人都拥有其独立的生活方式，清净无染的极地反射出人与人最纯粹的关系。在该片中，光更像是一种分隔符，它将世界分为昼夜两种极端意象。同时，它也是一种媒介，让每个人都能发现属于自己的光。影片的后半部分，随着“太阳节”的到来，朗伊尔城所有人都等待着第一缕阳光照射在脸上，这一幕同样勾勒出人们对光的向往与渴望 <br/>——新华网、光明网综合评）</li>  
-	  <li>为了活下来，要拼尽全力。生命本就不仅仅是为你自己。<br/>——克里斯托弗·诺兰 《敦刻尔克》</li>  
-		<li>他们叫你什么没关系，关键是成为你想做的样子<br/>——《兰戈》</li>  
-	</ul>
-  </div>
-  <div class="taici2">
-	<ul>
-	  <li class="biaoti2">经典台词</li>
-	  <li>生活便是这样，痛苦和悲伤永远无法被真正忘却，它们就像轻拍岸礁的浪，时刻侵蚀着人脆弱的内心 被生活杀死的人，终究还会被囚禁在生活里，海边的曼彻斯特，便是一生的囚牢。<br/>——《海边的曼彻斯特》</li> 
-	  <li>妈妈信上写道，在某个地方摔倒时，每次回头看之前的自己，发现每次都在同一个地方摔倒。尽管一直很努力，却总在同一个地方画圆圈，很让人失落。但是每次积累下了经验，所以不管是失败还是成功，都不再是原点。那么，不应该叫圆圈，而应该是螺旋。从某一角度看，仿佛是在同一个地方兜转，其实多少会偏离上一点或下一点。如果是那样也还好。也许人本身就是螺旋，在同一个地方兜兜转转，每次却又不同或上或下或横着延展出去。我画的圆每次在不断变大，所以螺旋每次也在不断变大。想到这里，觉得自己还是应该再努力一把。<br/>——《小森林 冬春篇》</li>  
-	  <li> 也许是因为不管什么我都必须自己做一遍，不能单纯相信言语，用自己的身体真实体验到的才可相信<br/>——《小森林 夏秋篇》</li>   
-		<li>我们读诗写诗，非为它的灵巧。我们读诗写诗，因为我们是人类的一员。而人类充满了热情。医药，法律，商业，工程，这些都是高贵的理想，并且是维生的必需条件。但是诗，美，浪漫，爱，这些才是我们生存的原因。<br/>——《死亡诗社》</li>  
-	</ul>
-  </div>
-<div class="footer">
-	<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	</p>
-</div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
